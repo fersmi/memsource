@@ -1,2 +1,0 @@
-# memsource
-Memsource test

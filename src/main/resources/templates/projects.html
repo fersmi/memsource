@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Projects : List</title>
+        <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../css/bootstrap.min.css" />
+        <script type="text/javascript" th:src="@{/js/jquery-1.7.2.js}"></script>
+        <script type="text/javascript" th:src="@{/js/projects.js}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <ul class="nav">
+                        <li><a th:href="@{/credentials}" href="credentials.html">Credentials</a></li>
+                        <li><a th:href="@{/projects}" href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h1>Projects</h1>
+            <div id="project-list" class="">
+	            <p class="alert alert-info">Loading projects ....</p>
+	        </div>
+        </div>
+    </body>
+</html>
